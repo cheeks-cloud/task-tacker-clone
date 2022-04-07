@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "poppins",sans-serif;
+}
+.container{
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 3px solid green;
+  box-shadow: 8px 8px 8px  ;
+  padding: 30px;
+  border-radius: 5px;
+}
+.btn{
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
